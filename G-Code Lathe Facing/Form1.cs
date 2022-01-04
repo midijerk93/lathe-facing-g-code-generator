@@ -58,11 +58,11 @@ namespace G_Code_Lathe_Facing
                 DialogBox.Text += Environment.NewLine;
                 DialogBox.Text += "G0 Z2.;";
                 DialogBox.Text += Environment.NewLine;
-                DialogBox.Text += "M5";
+                DialogBox.Text += "M5;";
                 DialogBox.Text += Environment.NewLine;
-                DialogBox.Text += "M9";
+                DialogBox.Text += "M9;";
                 DialogBox.Text += Environment.NewLine;
-                DialogBox.Text += "M30";
+                DialogBox.Text += "M30;";
             }
             else
             {
